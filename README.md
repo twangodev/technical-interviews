@@ -1,1 +1,1 @@
-# leetcode
+# technical-interviews
