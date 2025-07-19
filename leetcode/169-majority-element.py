@@ -10,7 +10,7 @@ class Solution:
 
             count += 1 if i == majority else -1
 
-            if count >= len(nums) / 2:
+            if count > len(nums) // 2:
                 return i
 
         return majority
