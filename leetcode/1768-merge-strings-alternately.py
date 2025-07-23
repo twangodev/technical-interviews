@@ -1,21 +1,21 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
 
-        n = len(word1)
-        m = len(word2)
+        m = len(word1)
+        n = len(word2)
 
         i = 0
         j = 0
 
         result = []
 
-        while i < n or j < m:
+        while i < m or j < n:
 
-            if i < n:
+            if i < m:
                 result.append(word1[i])
                 i += 1
 
-            if j < m:
+            if j < n:
                 result.append(word2[j])
                 j += 1
 
