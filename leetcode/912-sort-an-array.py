@@ -1,3 +1,6 @@
+from typing import List
+
+
 def merge(left, right):
     result = []
 

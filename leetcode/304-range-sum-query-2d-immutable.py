@@ -1,3 +1,6 @@
+from typing import List
+
+
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
